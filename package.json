@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build-image": "docker build -t weshigbee/eg .",
+    "eg-help": "docker run --rm -it weshigbee/eg --help",
+    "eg-list": "docker run --rm -it weshigbee/eg --list",
+    "eg-eg": "docker run --rm -it weshigbee/eg eg",
+    "build-run": "npm run build-image && npm run eg-eg"
+  }
+}

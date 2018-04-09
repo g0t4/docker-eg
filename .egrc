@@ -1,0 +1,3 @@
+[eg-config]
+# pager-cmd = 'cat'
+squeeze = true
